@@ -1,0 +1,14 @@
+*,
+*::before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #18c9de;
+}
+/*# sourceMappingURL=style.css.map */
