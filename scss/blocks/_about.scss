@@ -1,0 +1,27 @@
+$blue: #18c9de;
+$black: #000;
+$white: #fff;
+$dark-white: #f5f5f5;
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: $dark-white;
+
+    &__header {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &__text {
+        padding-top: 10px;
+        width: 500px;
+        font-size: 18px;
+    }
+}
