@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -20,9 +19,9 @@
                     brdnkva
                 </div>
                 <nav class="header__navbar">
-                    <a class="header__navbar-link" href="#">О себе</a>
-                    <a class="header__navbar-link" href="#">Навыки</a>
-                    <a class="header__navbar-link" href="#">Связь со мной</a>
+                    <a class="header__navbar-link" href="#about">О себе</a>
+                    <a class="header__navbar-link" href="#skills">Навыки</a>
+                    <a class="header__navbar-link" href="#footer">Связь со мной</a>
                 </nav>
             </div>
 
@@ -35,8 +34,8 @@
         <div class="container">
             <div class="intro__inner">
                 <div class="intro__content">
-                    <h2>Привет! 
-                    <br> меня зовут Женя,</h2>
+                    <h2>Привет!
+                        <br> меня зовут Женя,</h2>
                     <h1>и я <br>
                         <span>frontend-разработчик</span></h1>
                 </div>
@@ -45,14 +44,15 @@
     </section>
     <!-- /.intro -->
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="about__inner">
                 <div class="about__content">
                     <h2 class="about__header">О себе</h2>
                     <div class="about__text">
-                        <p>Меня зовут Бердникова Евгения и я начинающий frontend-разработчик из Санкт-Петербурге.</p>
-                        <p>На 3 курсе университета я увлеклась web-разработкой и начала самостоятельно изучать верстку. На данный момент мой стек технологий увеличился, но я также продалжаю познавать web-мир.</p>
+                        <p>Меня зовут Бердникова Евгения и я начинающий frontend-разработчик из Санкт-Петербурга.</p>
+                        <p>На 3 курсе университета я увлеклась web-разработкой и начала самостоятельно изучать верстку.
+                            На данный момент мой стек технологий увеличился, но я также продолжаю познавать web-мир.</p>
                     </div>
                 </div>
                 <div class="about__photo">
@@ -61,6 +61,93 @@
             </div>
         </div>
     </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="skills__inner">
+                <div class="skills__header">
+                    <h1>Ключевые навыки</h1>
+                </div>
+                <div class="skills__content">
+                    <div class="skills__row">
+                        <div class="skills__progress-bar">
+                            <p>HTML</p>
+                            <div class="skills__progress-bar-line">
+                                <div class="skills__progress-done" data-done="60">
+                                    60%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__progress-bar">
+                            <p>CSS</p>
+                            <div class="skills__progress-bar-line">
+                                <div class="skills__progress-done" data-done="50">
+                                    50%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__row">
+                        <div class="skills__progress-bar">
+                            <p>JavaScript</p>
+                            <div class="skills__progress-bar-line">
+                                <div class="skills__progress-done" data-done="75">
+                                    75%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__progress-bar">
+                            <p>ReactJS</p>
+                            <div class="skills__progress-bar-line">
+                                <div class="skills__progress-done" data-done="10">
+                                    10%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__info">
+                    <h2>Ещё навыки:</h2>
+                    <ul class="skills__list">
+                        <li>Программирование на C#</li>
+                        <li>Знание SQL, работа и администрирование баз данных</li>
+                        <li>Webpack, Babel</li>
+                        <li>Система контроля Git</li>
+                        <li>Работа с редакторами Adobe Photoshop, Avocode, Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer_text">
+                    <span>Я всегда открыта для сотрудничества!</span>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__email">zhenyabrdnkva@gmail.com</div>
+                    <div class="footer__social">
+                        <a href="https://vk.com/brdnkva" target="_black">
+                            <img src="img\icons\vk-social-logotype.svg" alt="vk" width="45">
+                        </a>
+                        <a href="https://github.com/ZhenyaBerda" target="_black">
+                            <img src="img\icons\logo.svg" alt="github" width="35">
+                        </a>
+                        <a href="https://www.linkedin.com/in/evgeniia-berdnikova/" target="_black">
+                            <img src="img\icons\linkedin-logo.svg" alt="linkedin" width="30">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>

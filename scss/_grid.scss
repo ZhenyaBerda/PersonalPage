@@ -1,3 +1,5 @@
+$dark-white: #f5f5f5;
+
 *{
     box-sizing: border-box;
 }
@@ -6,6 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: $dark-white;
 }
 
 .container {
