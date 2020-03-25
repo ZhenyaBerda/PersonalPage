@@ -1,14 +1,5 @@
-$blue: #18c9de;
-$black: #000;
-*,
-*::before,
-*:after {
-    box-sizing: border-box;
-}
+// Базовые настройки
+@import 'grid';
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: $blue;
-}
+// Меню
+@import 'blocks/header';
