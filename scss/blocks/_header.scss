@@ -13,13 +13,12 @@ $white: #fff;
          height: 2px;
          background-color: $blue;
          color: $blue;
+         opacity: .6;
 
         position: absolute;
         bottom: -2px;
         left: 0;
         z-index: 1;
-
-        transition: width .2s linear;
     }
 
     &__inner {
