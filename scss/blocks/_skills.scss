@@ -30,7 +30,6 @@ $dark-white: #f5f5f5;
 
     &__progress-done {
         background: linear-gradient(to left, $blue, #48d1cc);
-        box-shadow: 0 3px 3px -5px $blue, 0 2px 5px $blue;
         border-radius: 20px;
         color: #fff;
         display: flex;
@@ -54,7 +53,7 @@ $dark-white: #f5f5f5;
             font-variant: small-caps;
 
             &:before {
-                position: absolute;
+                position: absolute  ;
                 width: 7px;
                 height: 7px;
                 border-radius: 50%;

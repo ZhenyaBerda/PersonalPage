@@ -26,4 +26,6 @@ const progressBar = () => {
     });
 };
 
+
+
 progressBar();
